@@ -1,0 +1,35 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserdata
+*.xcscmblueprint
+*.moved-aside
+
+# CocoaPods
+Pods/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# macOS
+.DS_Store
+*.swp
+*~
+
+# App secrets and keys
+.env
+*.env
+secrets.json
+
+# Debug logs
+*.log
+cool_uncle_debug.log
+
+# IDE
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.temp

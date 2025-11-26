@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112A1AF72ECD1F1300FE4E4E /* FluidAudio in Frameworks */ = {isa = PBXBuildFile; productRef = 112A1AF62ECD1F1300FE4E4E /* FluidAudio */; };
+		D6E2B54EAB1AB6BF08033419 /* Pods_Cool_Uncle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF225B38CE0952C449EB3E3D /* Pods_Cool_Uncle.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11A7CDCF2E396649001E573C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A7CDB92E396648001E573C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A7CDC02E396648001E573C;
+			remoteInfo = "Cool Uncle";
+		};
+		11A7CDD92E396649001E573C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11A7CDB92E396648001E573C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11A7CDC02E396648001E573C;
+			remoteInfo = "Cool Uncle";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A7CDC12E396648001E573C /* Cool Uncle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cool Uncle.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A7CDCE2E396649001E573C /* Cool UncleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Cool UncleTests.xctest"; path = "/Users/alexander/Cool-Uncle/cool-uncle-ios-release/build/Debug-iphoneos/Cool Uncle.app/PlugIns/Cool UncleTests.xctest"; sourceTree = "<absolute>"; };
+		11A7CDD82E396649001E573C /* Cool UncleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Cool UncleUITests.xctest"; path = "/Users/alexander/Cool-Uncle/cool-uncle-ios-release/build/Debug-iphoneos/Cool UncleUITests-Runner.app/PlugIns/Cool UncleUITests.xctest"; sourceTree = "<absolute>"; };
+		6C4E778F4A98078E3E704508 /* Pods-Cool Uncle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cool Uncle.debug.xcconfig"; path = "Target Support Files/Pods-Cool Uncle/Pods-Cool Uncle.debug.xcconfig"; sourceTree = "<group>"; };
+		BA769F261460E57E33EFF58D /* Pods-Cool Uncle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cool Uncle.release.xcconfig"; path = "Target Support Files/Pods-Cool Uncle/Pods-Cool Uncle.release.xcconfig"; sourceTree = "<group>"; };
+		CF225B38CE0952C449EB3E3D /* Pods_Cool_Uncle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cool_Uncle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		11796EF82E8C670B0098AB3C /* Exceptions for "Cool Uncle" folder in "Cool UncleTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				gaming_pronunciation_model.bin,
+			);
+			target = 11A7CDCD2E396649001E573C /* Cool UncleTests */;
+		};
+		11796EF92E8C670B0098AB3C /* Exceptions for "Cool Uncle" folder in "Cool UncleUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				gaming_pronunciation_model.bin,
+			);
+			target = 11A7CDD72E396649001E573C /* Cool UncleUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		11A7CDC32E396648001E573C /* Cool Uncle */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				11796EF82E8C670B0098AB3C /* Exceptions for "Cool Uncle" folder in "Cool UncleTests" target */,
+				11796EF92E8C670B0098AB3C /* Exceptions for "Cool Uncle" folder in "Cool UncleUITests" target */,
+			);
+			path = "Cool Uncle";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11A7CDBE2E396648001E573C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112A1AF72ECD1F1300FE4E4E /* FluidAudio in Frameworks */,
+				D6E2B54EAB1AB6BF08033419 /* Pods_Cool_Uncle.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A7CDCB2E396649001E573C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A7CDD52E396649001E573C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		063D19C3449FAB758C299887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF225B38CE0952C449EB3E3D /* Pods_Cool_Uncle.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11A7CDB82E396648001E573C = {
+			isa = PBXGroup;
+			children = (
+				11A7CDC32E396648001E573C /* Cool Uncle */,
+				11A7CDC22E396648001E573C /* Products */,
+				9789CC4E3509D5DFD8652912 /* Pods */,
+				063D19C3449FAB758C299887 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11A7CDC22E396648001E573C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11A7CDC12E396648001E573C /* Cool Uncle.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9789CC4E3509D5DFD8652912 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C4E778F4A98078E3E704508 /* Pods-Cool Uncle.debug.xcconfig */,
+				BA769F261460E57E33EFF58D /* Pods-Cool Uncle.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11A7CDC02E396648001E573C /* Cool Uncle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A7CDE22E396649001E573C /* Build configuration list for PBXNativeTarget "Cool Uncle" */;
+			buildPhases = (
+				58E42C0403D6D416680EC495 /* [CP] Check Pods Manifest.lock */,
+				11A7CDBD2E396648001E573C /* Sources */,
+				11A7CDBE2E396648001E573C /* Frameworks */,
+				11A7CDBF2E396648001E573C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				11A7CDC32E396648001E573C /* Cool Uncle */,
+			);
+			name = "Cool Uncle";
+			productName = "Cool Uncle";
+			productReference = 11A7CDC12E396648001E573C /* Cool Uncle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11A7CDCD2E396649001E573C /* Cool UncleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A7CDE52E396649001E573C /* Build configuration list for PBXNativeTarget "Cool UncleTests" */;
+			buildPhases = (
+				11A7CDCA2E396649001E573C /* Sources */,
+				11A7CDCB2E396649001E573C /* Frameworks */,
+				11A7CDCC2E396649001E573C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A7CDD02E396649001E573C /* PBXTargetDependency */,
+			);
+			name = "Cool UncleTests";
+			productName = "Cool UncleTests";
+			productReference = 11A7CDCE2E396649001E573C /* Cool UncleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11A7CDD72E396649001E573C /* Cool UncleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11A7CDE82E396649001E573C /* Build configuration list for PBXNativeTarget "Cool UncleUITests" */;
+			buildPhases = (
+				11A7CDD42E396649001E573C /* Sources */,
+				11A7CDD52E396649001E573C /* Frameworks */,
+				11A7CDD62E396649001E573C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11A7CDDA2E396649001E573C /* PBXTargetDependency */,
+			);
+			name = "Cool UncleUITests";
+			productName = "Cool UncleUITests";
+			productReference = 11A7CDD82E396649001E573C /* Cool UncleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11A7CDB92E396648001E573C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					11A7CDC02E396648001E573C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					11A7CDCD2E396649001E573C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 11A7CDC02E396648001E573C;
+					};
+					11A7CDD72E396649001E573C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 11A7CDC02E396648001E573C;
+					};
+				};
+			};
+			buildConfigurationList = 11A7CDBC2E396648001E573C /* Build configuration list for PBXProject "Cool Uncle" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11A7CDB82E396648001E573C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				112A1AF22ECD1E9C00FE4E4E /* XCRemoteSwiftPackageReference "FluidAudio" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 11A7CDC22E396648001E573C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11A7CDC02E396648001E573C /* Cool Uncle */,
+				11A7CDCD2E396649001E573C /* Cool UncleTests */,
+				11A7CDD72E396649001E573C /* Cool UncleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11A7CDBF2E396648001E573C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A7CDCC2E396649001E573C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A7CDD62E396649001E573C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58E42C0403D6D416680EC495 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Cool Uncle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A7CDBD2E396648001E573C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A7CDCA2E396649001E573C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11A7CDD42E396649001E573C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11A7CDD02E396649001E573C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A7CDC02E396648001E573C /* Cool Uncle */;
+			targetProxy = 11A7CDCF2E396649001E573C /* PBXContainerItemProxy */;
+		};
+		11A7CDDA2E396649001E573C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11A7CDC02E396648001E573C /* Cool Uncle */;
+			targetProxy = 11A7CDD92E396649001E573C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11A7CDE02E396649001E573C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 486K7WLP38;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11A7CDE12E396649001E573C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 486K7WLP38;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11A7CDE32E396649001E573C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C4E778F4A98078E3E704508 /* Pods-Cool Uncle.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8XR2K7KA8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool Uncle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cool Uncle needs microphone access to capture your voice to control your game system.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Cool Uncle needs speech recognition to convert your voice commands into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.human-interact.Cool-Uncle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cool Uncle/Cool Uncle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11A7CDE42E396649001E573C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA769F261460E57E33EFF58D /* Pods-Cool Uncle.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R8XR2K7KA8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Cool Uncle";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Cool Uncle needs microphone access to capture your voice to control your game system.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "Cool Uncle needs speech recognition to convert your voice commands into text.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.human-interact.Cool-Uncle";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Cool Uncle/Cool Uncle-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11A7CDE62E396649001E573C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 486K7WLP38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HumanInteract.Cool-UncleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool Uncle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cool Uncle";
+			};
+			name = Debug;
+		};
+		11A7CDE72E396649001E573C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 486K7WLP38;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HumanInteract.Cool-UncleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cool Uncle.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cool Uncle";
+			};
+			name = Release;
+		};
+		11A7CDE92E396649001E573C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 486K7WLP38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HumanInteract.Cool-UncleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cool Uncle";
+			};
+			name = Debug;
+		};
+		11A7CDEA2E396649001E573C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 486K7WLP38;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "HumanInteract.Cool-UncleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cool Uncle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11A7CDBC2E396648001E573C /* Build configuration list for PBXProject "Cool Uncle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A7CDE02E396649001E573C /* Debug */,
+				11A7CDE12E396649001E573C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A7CDE22E396649001E573C /* Build configuration list for PBXNativeTarget "Cool Uncle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A7CDE32E396649001E573C /* Debug */,
+				11A7CDE42E396649001E573C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A7CDE52E396649001E573C /* Build configuration list for PBXNativeTarget "Cool UncleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A7CDE62E396649001E573C /* Debug */,
+				11A7CDE72E396649001E573C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11A7CDE82E396649001E573C /* Build configuration list for PBXNativeTarget "Cool UncleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11A7CDE92E396649001E573C /* Debug */,
+				11A7CDEA2E396649001E573C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		112A1AF22ECD1E9C00FE4E4E /* XCRemoteSwiftPackageReference "FluidAudio" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FluidInference/FluidAudio";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		112A1AF62ECD1F1300FE4E4E /* FluidAudio */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 112A1AF22ECD1E9C00FE4E4E /* XCRemoteSwiftPackageReference "FluidAudio" */;
+			productName = FluidAudio;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11A7CDB92E396648001E573C /* Project object */;
+}
